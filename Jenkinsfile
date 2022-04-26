@@ -10,7 +10,7 @@ pipeline {
       steps {
         echo "-=- preparing project enviornment -=-"
         // Python dependencies
-        sh "pip install -r requirments.txt"
+        sh "pip install -r requirements.txt"
       }
     }
     stage ('Build Docker image') {
